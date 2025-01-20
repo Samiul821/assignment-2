@@ -140,4 +140,14 @@
     .nav-logo{
        margin: auto 0 auto 16px;
     }
+
+    .banner-section{
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+
+    .banner-content{
+        width: 100%;
+        text-align: center;
+    }
 }
