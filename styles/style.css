@@ -73,6 +73,51 @@
     display: none;
 }
 
+/* banner-section */
+.banner-section{
+    width: 1440px;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 60px auto;
+}
+
+.banner-content{
+    width: 640px;
+    height: auto;
+}
+
+.banner-title{
+    color: black;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+#empowe{
+    color: orange;
+}
+
+#vision{
+    color: skyblue;
+}
+
+.banner-description{
+    font-size: 1.25rem;
+    color: black;
+    margin-bottom: 24px;
+}
+
+.banner-btn{
+    padding: 10px 47px;
+    border: none;
+    border-radius: 12px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
 /* responsive for mobile */
 @media screen and (max-width: 576px) {
     .ul, .nav-btn, .nav-title{
@@ -83,6 +128,7 @@
         height: 70px;
         border-bottom: 1px solid orange;
         justify-content: space-between;
+        margin-bottom: 8px;
     }
 
     .dot-icon{
