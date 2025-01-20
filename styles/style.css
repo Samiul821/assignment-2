@@ -68,3 +68,30 @@
     font-weight: 600;
     color: #ffffff;
 }
+
+.dot-icon{
+    display: none;
+}
+
+/* responsive for mobile */
+@media screen and (max-width: 576px) {
+    .ul, .nav-btn, .nav-title{
+        display: none;
+    }
+
+    .nav-bar{
+        height: 70px;
+        border-bottom: 1px solid orange;
+        justify-content: space-between;
+    }
+
+    .dot-icon{
+        display: block;
+        margin-right: 16px;
+        margin: 20px 16px 20px 0;
+    }
+
+    .nav-logo{
+       margin: auto 0 auto 16px;
+    }
+}
