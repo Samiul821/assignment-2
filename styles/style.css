@@ -231,6 +231,145 @@
     align-items: center;
 }
 
+/* card-section */
+.card-section{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    justify-items: center;
+    /* text-align: center; */
+    background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);;
+}
+
+.section-contaianer{
+    width: 1440px;
+    height: auto;
+    background-image: url('../assets/bg.png');
+}
+
+.section-title{
+    text-align: center;
+    font-size: 2.875rem;
+    font-weight: bold;
+    margin: 60px 0 80px 0;
+}
+
+.card-contianer{
+    width: 1440px;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+
+.big-card{
+    width: 540.27px;
+    height: 630.52px;
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+
+.big-card img{
+    /* position: relative; */
+    position: static;
+    border-radius: 16px 16px 0 0;
+}
+
+.big-btn{
+    margin-top: -25px;
+}
+
+.big-card-btn{
+    border: none;
+    border-radius: 47.93px;
+    padding: 8px 10px;
+    color: #ffffff;
+    font-size: 15.34px;
+    font-weight: 500;
+    background-color: #3CD8E8;
+    margin-left: 38px;
+    /* margin-bottom: 36px; */
+    padding: 14px 18px;
+    margin-bottom: 30px;
+}
+
+.big-card-title{
+    width: 402.49px;
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 38px;
+    margin: 0 0 51.77px 38.35px;
+}
+
+.big-card-description{
+    width: 433px;
+    line-height: 28.8px;
+    font-size: 15.34px;
+    font-weight: 500;
+    margin-left: 38.35px;
+}
+
+.mini-card-container{
+    width: 601px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+}
+
+.card{
+    width: 290.69px;
+    height: auto;
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+
+.card img{
+    border-radius: 16px 16px 0 0;
+}
+
+.card-button{
+    margin-top: -22px;
+}
+
+#praimary-color{
+    background-color: #5D58F0;
+}
+
+.card-btn{
+    padding: 9px 18px;
+    border-radius: 47.93px;
+    border: none;
+    background-color: #95B226;
+    color: #ffffff;
+    font-size: 15.34px;
+    font-weight: 500;
+    margin-left: 37.91px;
+    margin-bottom: 19.17px;
+}
+
+.card-title{
+    font-size: 15.34px;
+    font-weight: bold;
+    margin: 0 38px 28px 38px;
+}
+
+.section-btn{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.card-section-btn{
+    padding: 10px 61px;
+    border-radius: 12px;
+    border: none;
+    background-color: black;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
 
 /* responsive for mobile */
 @media screen and (max-width: 576px) {
