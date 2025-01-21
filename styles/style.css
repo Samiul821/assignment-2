@@ -125,7 +125,6 @@
     background-image: url('../assets/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    /* border: 1px solid black; */
     text-align: center;
     margin: 0 auto 0 auto;
 }
@@ -235,7 +234,7 @@
 
 /* responsive for mobile */
 @media screen and (max-width: 576px) {
-    .ul, .nav-btn, .nav-title{
+    .ul, .nav-btn, .nav-title, .slide-container{
         display: none;
     }
 
@@ -264,5 +263,24 @@
     .banner-content{
         width: 100%;
         text-align: center;
+    }
+
+    .curriculum-sectiion{
+        width: 100%;
+    }
+
+    .box-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .box{
+        width: 90%;
+    }
+
+    .curriculum-title{
+        font-size: 1.625rem;
+        margin-top: 40px;
+        margin-bottom: 20px;
     }
 }
