@@ -371,6 +371,13 @@
     margin-bottom: 60px;
 }
 
+/* footer section */
+footer{
+    width: 100%;
+    height: 519px;
+    background-color: #01ACFD;
+}
+
 /* responsive for mobile */
 @media screen and (max-width: 576px) {
     .ul, 
@@ -401,6 +408,30 @@
     .banner-section{
         flex-direction: column-reverse;
         width: 90%;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .banner-image img{
+        width: 90%;
+        margin-left: 18px;
+    }
+
+    .banner-title{
+        width: 358px;
+        font-size: 2rem;
+    }
+
+    .banner-description{
+        font-weight: 500;
+        width: 358px;
+        font-size: 14px;
+    }
+
+    .banner-btn{
+        padding: 6px 24px;
+        font-size: 16px;
     }
 
     .banner-content{
@@ -474,13 +505,4 @@
     .card-section-btn{
         font-size: 16px;
     }
-
-    /* .card{
-        width: 173.35px;
-        height: 179px;
-    }
-
-    .card-img img{
-        width: 173.35px;
-    } */
 }
