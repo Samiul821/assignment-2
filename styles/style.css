@@ -381,7 +381,7 @@ footer{
 .footer-container{
     height: 222px;
     width: 1400px;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     margin-left: 200px;
 }
 
