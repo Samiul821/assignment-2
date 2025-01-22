@@ -477,21 +477,21 @@ footer{
         justify-content: center;
         justify-items: center;
         align-items: center;
+        text-align: center;
     }
 
     .banner-image img{
         width: 90%;
-        margin-left: 19px;
+        margin-left: auto;
     }
 
     .banner-title{
-        width: 358px;
         font-size: 2rem;
+        text-align: center;
     }
 
     .banner-description{
         font-weight: 500;
-        width: 358px;
         font-size: 14px;
     }
 
